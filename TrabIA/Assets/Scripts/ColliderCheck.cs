@@ -12,7 +12,7 @@ public class ColliderCheck : MonoBehaviour
         if (other.tag == "Prey")
         {
             Script.chasing = true;
-            Debug.Log("Colidindo");
+           
 
             Script.newtarget = 2;
         }

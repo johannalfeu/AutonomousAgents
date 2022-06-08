@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1311937825911242623}
   - component: {fileID: 1311937825911242622}
   - component: {fileID: 1311937825911242621}
-  - component: {fileID: 2946025782143946960}
+  - component: {fileID: 3868904713750653719}
   m_Layer: 0
   m_Name: Prey
   m_TagString: Prey
@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1311937825911242612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23.4, y: 2.5, z: 58.6}
-  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -125,7 +125,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 9
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -152,10 +152,10 @@ MonoBehaviour:
   Agent: {fileID: 1311937825911242622}
   chasing: 0
   timer: 0
-  speed: 7
-  newtarget: 2
+  speed: 9
+  newtarget: 0
   Target: {x: 0, y: 0, z: 0}
---- !u!114 &2946025782143946960
+--- !u!114 &3868904713750653719
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,6 +164,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1311937825911242612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd2ab5bb01cc70e49b0920fc99052608, type: 3}
+  m_Script: {fileID: 11500000, guid: 92d210bdab02b0a4cb1b7e4a1d5f8f1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
